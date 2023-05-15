@@ -1,0 +1,15 @@
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\bin\Debug\net6.0\PilaVector.exe
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\bin\Debug\net6.0\PilaVector.deps.json
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\bin\Debug\net6.0\PilaVector.runtimeconfig.json
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\bin\Debug\net6.0\PilaVector.dll
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\bin\Debug\net6.0\PilaVector.pdb
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.csproj.AssemblyReference.cache
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.AssemblyInfoInputs.cache
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.AssemblyInfo.cs
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.csproj.CoreCompileInputs.cache
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.dll
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\refint\PilaVector.dll
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.pdb
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\PilaVector.genruntimeconfig.cache
+C:\Users\DAYNOR\Desktop\vector\PilaVector\PilaVector\PilaVector\obj\Debug\net6.0\ref\PilaVector.dll
