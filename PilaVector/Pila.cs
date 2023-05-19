@@ -81,8 +81,57 @@ namespace PilaVector
 
         public void LimpiarPila()
         {
-            top = -1;
+
+            while (!pilaVacia())
+            {
+                pop();
+            }
             Console.WriteLine("La pila ha sido limpiada.");
+        }
+
+        public void ContarElementos()
+        {
+            Console.WriteLine("La pila tiene: {0} elementos.", top + 1); 
+        }
+
+        public void MostrarElementoMayor()
+        {
+            if (!pilaVacia())
+            {
+                int maxElemento = pila[0];
+                for (int i = 1; i <= top; i++)
+                {
+                    if (pila[i] > maxElemento)
+                    {
+                        maxElemento = pila[i];
+                    }
+                }
+                Console.WriteLine("El elemento mayor en la pila es: {0}", maxElemento);
+            }
+            else
+            {
+                Console.WriteLine("La pila está vacía!");
+            }
+        }
+
+        public void MostrarElementoMenor()
+        {
+            if (!pilaVacia())
+            {
+                int minElemento = pila[0];
+                for (int i = 1; i <= top; i++)
+                {
+                    if (pila[i] < minElemento)
+                    {
+                        minElemento = pila[i];
+                    }
+                }
+                Console.WriteLine("El elemento menor en la pila es: {0}", minElemento);
+            }
+            else
+            {
+                Console.WriteLine("La pila está vacía!");
+            }
         }
     }
 }

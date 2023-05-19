@@ -7,12 +7,13 @@ Console.WriteLine("2.Agregar elemento a la Pila.");
 Console.WriteLine("3.Sacar Elemento de la Pila.");
 Console.WriteLine("4.Mostrar Pila.");
 Console.WriteLine("5.Limpiar Pila");
-Console.WriteLine("6.Salir");
+Console.WriteLine("6.Contar elementos.");
+Console.WriteLine("7.Elemento Mayor");
+Console.WriteLine("8.Elemento menor");
+Console.WriteLine("9.Salir");
 Console.WriteLine("******************************");
 
 Pila miPila = null;
-
-
 do
 {
     Console.WriteLine("Ingrese una opcion: ");
@@ -29,10 +30,19 @@ do
         case 2:
             if (miPila != null)
             {
-                Console.WriteLine("Ingrese el elemento a agregar:");
-                int elemento = int.Parse(Console.ReadLine());
-                miPila.push(elemento);
-                Console.WriteLine("Elemento agregado correctamente.");
+                
+                if (miPila.pilaLlena())
+                {
+                    Console.WriteLine("La pila esta llena.");
+                }
+                else
+                {
+                    Console.WriteLine("Ingrese el elemento a agregar:");
+                    int elemento = int.Parse(Console.ReadLine());
+                    miPila.push(elemento);
+                    Console.WriteLine("Elemento agregado correctamente.");
+                }
+                
             }
             else
             {
@@ -76,8 +86,37 @@ do
                 Console.WriteLine("Debe crear una pila primero.");
             }
             break;
-            
         case 6:
+            if (miPila != null)
+            {
+                miPila.ContarElementos();
+            }
+            else
+            {
+                Console.WriteLine("Debe crear una pila primero.");
+            }
+            break;
+        case 7:
+            if (miPila != null)
+            {
+                miPila.MostrarElementoMayor();
+            }
+            else
+            {
+                Console.WriteLine("Debe crear una pila primero.");
+            }
+            break;
+        case 8:
+            if (miPila != null)
+            {
+                miPila.MostrarElementoMenor();
+            }
+            else
+            {
+                Console.WriteLine("Debe crear una pila primero.");
+            }
+            break;
+        case 9:
             Console.WriteLine("Programa terminado.");
             break;
 
@@ -87,7 +126,7 @@ do
     }
 
 
-} while(op != 6);
+} while(op != 9);
 
 
 
